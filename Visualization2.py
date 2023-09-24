@@ -30,13 +30,6 @@ if st.checkbox("Plot Barchart"):
     # Show the bar chart
     st.plotly_chart(bar)
 
-    #trying to allow the button to download a png of the bar chart (not coloured)
 
-    bar.update_traces(marker_line_color='black', marker_line_width=1.5)
-
-    buffer = io.BytesIO()
-    bar.write_image(buffer, format='png')
-    buffer.seek(0)
-    st.download_button(label='Download Bar Image', data=buffer, file_name='Bar.png',key='Bar_image')
 
 
