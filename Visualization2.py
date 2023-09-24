@@ -1,7 +1,6 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-import io
 # Load your retail sales data
 retail_data = pd.read_csv("https://raw.githubusercontent.com/carolistical/visualization2/main/retail_sales_data.csv")
 
