@@ -1,3 +1,4 @@
+plotly
+streamlit
 Pandas
-Plotly
-numpy
+kaleido
