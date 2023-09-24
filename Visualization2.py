@@ -26,8 +26,7 @@ if st.checkbox("Plot Barchart"):
     # Create the bar chart with an f string so that the selected month is dynamic
     bar = px.bar(category_revenue, x='Category', y='Revenue',color='Category', title=f'Bar Chart for Month {selected_month}', labels={'Revenue': 'Total Revenue'})
 
-    # Show the bar chart
-    st.plotly_chart(bar)
+    bar
 
 
 
