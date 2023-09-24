@@ -2,3 +2,4 @@ plotly
 streamlit
 Pandas
 kaleido
+plotly.express==<5.9.0>
