@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load your retail sales data
-retail_data = pd.read_csv("/Users/carolraydan/Desktop/retail_sales_data.csv")
+retail_data = pd.read_csv("https://raw.githubusercontent.com/carolistical/final-rep/main/retail_sales_data.csv")
 
 # Create a Streamlit app
 st.title('Retail Sales Data Analysis')
